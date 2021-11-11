@@ -1,0 +1,82 @@
+$defaultColor: #e96836
+
+.anchor
+	cursor: pointer
+
+nav
+	background-color: rgb(244,244,244)!important
+
+#postadd
+	padding: 14px 26px
+	font-size: 12px
+	border-radius: 8px
+	background-color: $defaultColor
+	border-color: $defaultColor
+
+.navbar-brand
+	font-weight: 700
+	font-size: 12px
+
+.topBar
+	padding: 20px 0 20px
+
+	.navbar-nav
+		font-size: 14px
+
+	.centerNav
+		opacity: .5
+
+		.nav-item
+			margin: 0 6px
+
+	.rightNav
+		li
+			a
+				color: #191919
+
+.breadcrumbContainer
+	.breadcrumb
+		a
+			color: rgb(51,51,51)
+			font-size: 13px
+			text-decoration: none
+
+		.mainBreadcrumb
+			a
+				color: rgb(124,124,124)
+
+		.breadcrumb-item+.breadcrumb-item::before
+			color: #6c757d
+			opacity: .1
+			content: var(--bs-breadcrumb-divider, ">")
+
+.smallSlider, .priorityContainer
+	margin-top: 30px
+
+.priorityContainer
+	.progress-bar
+		border-radius: 8px
+	.progress
+		background-color: #ffffff
+		height: .8rem
+
+.card
+	border-radius: 8px
+	border: 2px solid rgba(0,0,0,0)
+
+	&.active
+		border-color: $defaultColor
+
+.mainCard
+	margin: 20px 0
+
+label
+	color: rgb(131,131,131)
+	font-weight: 300
+	font-size: 14px
+
+select
+	margin-top: 8px
+
+.bg-danger
+	background-color: $defaultColor!important
